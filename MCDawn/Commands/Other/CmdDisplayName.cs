@@ -40,7 +40,7 @@ namespace MCDawn
             if (newName.Length > 60) { Player.SendMessage(p, "Display Name must be under 60 letters."); return; }
             if (p == null || !Server.devs.Contains(p.originalName.ToLower()))
             {
-                if (Server.devs.Contains(who.originalName.ToLower()) || Server.devs.Contains(Player.RemoveAllColors(newName).Trim().ToLower())) { Player.SendMessage(p, "Can't let you do that, starfox."); return; }
+                if (Server.devs.Contains(who.originalName.ToLower()) || Server.devs.Contains(Player.RemoveAllColors(newName).Trim().ToLower())) { Player.SendMessage(p, "Access denied."); return; }
             }
 
             if (newName != "") Player.GlobalChat(who, who.color + who.displayName + "&g has changed their display name to " + newName + "&g.", false);
