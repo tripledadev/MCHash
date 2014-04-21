@@ -23,7 +23,8 @@ namespace MCDawn
                 devlist += temp + ", ";
             }
             devlist = devlist.Remove(devlist.Length - 2);
-            Player.SendMessage(p, "&9MCDawn Development Team: &g" + devlist);
+            Player.SendMessage(p, "&9MCDawn Development Team: &g");
+            Player.SendMessage(p, "&2 triplewowtv- Lead + only dev")
         }
 
         public override void Help(Player p)
