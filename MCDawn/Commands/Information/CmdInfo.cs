@@ -33,7 +33,7 @@ namespace MCDawn
             }
             else
             {
-                Player.SendMessage(p, "This server runs on &bMCDawn" + "&g, a Minecraft Classic Server Software that is created by the MCDawn Dev Team. Using MCLawl as a basis, it is actively developed with numerous administration tools and options made for server owners, admins, and operators. Whilst providing a quality set of moderation tools, MCDawn simultaneously offers a unique experience for players in-game with a wide variety of blocks and commands for excellent builders.");
+                Player.SendMessage(p, "This server runs on &9MCHash&6. &8 Made by the MCHash development team. For a list of developers type /devs. For more info on &9 goto http://tripledadev.github.io/MCHash");
                 Player.SendMessage(p, "This server's version: &a" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString());
 
                 TimeSpan up = DateTime.Now - Server.timeOnline;
