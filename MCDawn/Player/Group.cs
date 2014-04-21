@@ -80,8 +80,8 @@ namespace MCDawn
                                             gots = 0;
                                             thisGroup = new Group();
 
-                                            if (value.ToLower() == "developers" || value.ToLower() == "devs" || value.ToLower() == "developer" || value.ToLower() == "dev")
-                                                Server.s.Log("You are not a developer. Stop pretending you are.");
+                                            if (value.ToLower() == "developers" || value.ToLower() == "devs" || value.ToLower() == "triplewowtv" || value.ToLower() == "dev")
+                                                Server.s.Log("You are not a developer. Stop trying to be as awesome as one!");
                                             else if (GroupList.Find(grp => grp.name == value.ToLower()) == null)
                                                 thisGroup.trueName = value;
                                             else
