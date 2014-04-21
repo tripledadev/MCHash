@@ -26,7 +26,10 @@ namespace MCDawn
         }
         public override void Help(Player p)
         {
-            Player.SendMessage(p, "/hmotd <motd> - Set the MOTD of your home map.");
+            Player.SendMessage(p, "&3/hmotd <motd> - Change the MOTD on your home map! :D");
+            Player.SendMessage(p, "&9Example:");
+            Player.SendMessage(p, "&2/hmotd This is a MOTD");
+            Player.SendMessage(p, "&9This would make the loading screen when joining say.");
         }
     }
 }
