@@ -18,7 +18,7 @@ namespace MCDawn
             try
             {
                 string prefix = Server.HomePrefix;
-                if (p.level.name != prefix + p.name.ToLower()) { p.SendMessage("You must be on your home map to use /hmotd"); return; }
+                if (p.level.name != prefix + p.name.ToLower()) { p.SendMessage("You must be on your home map to use /hmotd ofc"); return; }
                 if (message == "") { message = "ignore"; }
                 Command.all.Find("map").Use(p, "motd " + message);
             }
